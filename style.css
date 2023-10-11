@@ -6,7 +6,6 @@
 #e6e6e6
 #c9bee9
 a08dd9
-
 */
 
 *{
@@ -14,7 +13,6 @@ a08dd9
     padding: 4px;
     box-sizing: border-box;
 }
-
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -32,7 +30,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: left;
-    
 }
 
 .logo{
@@ -42,26 +39,29 @@ header{
     background-size: cover;
     margin-left: 5px;
     border-radius: 15px;
-    
-    
 }
     
 
 #pagina-inicial{
-    padding: 20px;
+    padding: 70px;
+    background-image: url(imagens/Imagem-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#pagina-inicial h2{
+#pagina-inicial h1{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-
+    
 }
 
 #pagina-inicial p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+    
   }
 
   #pagina-inicial .cta-button {
@@ -79,7 +79,7 @@ header{
     max-width: 100px;
 }
 
-h1,h3{
+h3{
     color: #fff;
 }
 
