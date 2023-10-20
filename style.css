@@ -75,6 +75,11 @@ header{
     background-color: #a08dd9;
   }
 
+  div#fundo{
+    background-color: rgba(255, 248, 248, 0.288);
+    border-radius: 5px;
+  }
+
 .header .logo{
     max-width: 100px;
 }
