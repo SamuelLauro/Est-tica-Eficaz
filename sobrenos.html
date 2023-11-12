@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estética Eficaz - Sobre Nós</title>
+    <title>Estética Eficaz</title>
+    <meta name="description" content="Site da Estética Eficaz, uma empresa especializada em serviços de estética facial e corporal.">
     <link rel="stylesheet" href="style2.css"> 
     <link rel="shortcut icon" href="imagens/logo-site.png" type="image/x-icon">
 </head>
 <body>
+    
     <header>
         <div class="logo">
-         
         </div>
-    </header>
 
+        <nav class="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="sobrenos.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+            
+        </nav>
+    </header>
     <main>
+        
         <section id="pagina-inicial">
             <div id="fundo">
                 <h1>Sobre Nós</h1>
@@ -22,16 +30,54 @@
                     A Estética Eficaz é uma empresa especializada em serviços de estética facial e corporal. Oferecemos uma variedade de tratamentos para atender às necessidades de todos os clientes, desde os mais básicos até os mais avançados.
                     Nossos profissionais são altamente qualificados e experientes, e utilizamos os melhores produtos e equipamentos do mercado. Garantimos um atendimento personalizado e de excelência, para que você obtenha os resultados que deseja.
                     </p>
-                <a href="index.html" class="cta-button">Voltar para a Página Inicial</a>
+
+                    <h2>A Estética Eficaz</h2>
+
+                    <p>A Estética Eficaz foi fundada em 2023 por um grupo de profissionais experientes e qualificados, com o objetivo de oferecer tratamentos estéticos de alta qualidade e com foco no bem-estar dos clientes.</p>
+
+                    <p>Nossa equipe é composta por médicos, fisioterapeutas, esteticistas e cosmetologistas, que estão sempre buscando as últimas tendências e tecnologias do mercado.</p>
+
+                    <p>Nossos valores são:</p>
+
+                    <ul>
+                    <li>Excelência: buscamos sempre oferecer o melhor atendimento e resultados aos nossos clientes.</li>
+                    <li>Inovação: estamos sempre buscando novas tecnologias e tratamentos para oferecer o que há de mais moderno no mercado.</li>
+                    <li>Humanização: valorizamos o relacionamento com nossos clientes e buscamos proporcionar uma experiência agradável e personalizada.</li>
+                    </ul>
+
+                    <img src="imagens/fotoempresa.png" alt="Logotipo da Estética Eficaz" />
+
             </div>
         </section>
+
+        <section class="depoimentos">
+            <h2>Depoimentos</h2>
+            <div class="depoimento">
+                <img src="imagens/depoimento1.jpg" alt="Depoimento de cliente">
+                <p>
+                    “Sou cliente da Estética Eficaz há alguns anos e estou muito satisfeita com os resultados. Os profissionais são qualificados e experientes, e os serviços são de alta qualidade.”
+                    <br>
+                    <strong>Maria Silva</strong>
+                </p>
+            </div>
+            <div class="depoimento">
+                <img src="imagens/depoimento2.jpg" alt="Depoimento de cliente">
+                <p>
+                    “A Estética Eficaz me ajudou a recuperar a autoestima. Os tratamentos são eficazes e a equipe é muito atenciosa.”
+                    <br>
+                    <strong>João Carlos</strong>
+                </p>
+            </div>
+        </section>
+        
 
         <section class="sobrenos">
             <div id="ini">
                 <h2>Serviços</h2>  
             </div>
+
             <div class="servicos">
-                <article class="alongamento-cilios">
+                <article id="alongamento-cilios" class="servico-anchor">
                     <h3>Alongamento de Cílios</h3>
                     <p>
                         <strong>Cílios mais longos e volumosos sem esforço</strong>
@@ -51,7 +97,7 @@
                     </p>
                 </article>
 
-                <article class="micropigmentacao">
+                <article id="micropigmentacao" class="servico-anchor">
                     <h3>Micropigmentação</h3>
                     <p>
                         <strong>Sobrancelhas, lábios e olhos perfeitos</strong>
@@ -72,30 +118,66 @@
                     </p>
                 </article>
 
-                <article class="microagulhamento">
+                <article id="microagulhamento" class="servico-anchor">
                     <h3>Microagulhamento</h3>
                     <p>
-                        <strong>Rejuvenescimento e regeneração da pele
-                            ...
+                        <strong>Rejuvenescimento e regeneração da pele</strong>
+                        <br>
+                        <img src="imagens/microagulhamento.png" alt="Microagulhamento" />
+                        <br>
+                        O microagulhamento é um procedimento estético que consiste na aplicação de microagulhas na pele. As microagulhas causam microlesões na pele, que estimulam a produção de colágeno e elastina, resultando em uma pele mais jovem e renovada.
+                        <br>
+                        O microagulhamento é indicado para pessoas com pele madura, com cicatrizes de acne ou estrias, ou com manchas na pele.
+                        <br>
+                        <strong>Vantagens do microagulhamento:</strong>
+                        <ul>
+                            <li>Rejuvenescimento da pele</li>
+                            <li>Redução da aparência de cicatrizes</li>
+                            <li>Redução da aparência de manchas</li>
+                            <li>Melhoria da textura da pele</li>
+                        </ul>
+                        <strong>Entre em contato conosco e agende uma avaliação gratuita!</strong>
+                    </p>
+                </article>
 
-                            <article class="depilacao-cera">
-                                <h3>Depilação a Cera</h3>
-                                <p>
-                                    <strong>Pele lisinha e sem pelos</strong>
-                                    <br>
-                                    A depilação a cera é um procedimento estético que remove os pelos da pele. O procedimento é realizado com cera quente ou fria, que gruda nos pelos e os arranca da raiz.
-                                    <br>
-                                    A depilação a cera é uma ótima opção para quem deseja uma pele lisinha e sem pelos por mais tempo. O procedimento é realizado por profissionais qualificados e experientes, que utilizam materiais de alta qualidade. A depilação a cera dura cerca de 30 dias, mas pode variar de acordo com o tipo de pelo e os cuidados de manutenção.
-                                    <br>
-                                    <strong>Vantagens da depilação a cera:</strong>
-                                    <ul>
-                                        <li>Pele lisinha por mais tempo</li>
-                                        <li>Remoção completa dos pelos</li>
-                                        <li>Efeito duradouro</li>
-                                    </ul>
-                                    <strong>Entre em contato conosco e agende uma avaliação gratuita!</strong>
-                                </p>
-                            </article>
+                <article id="limpeza-pele" class="servico-anchor">
+                    <h3>Limpeza de Pele</h3>
+                    <p>
+                        <strong>Renove sua pele com a Limpeza Profunda</strong>
+                        <br>
+                        A limpeza de pele é um procedimento estético que remove impurezas, células mortas e cravos, promovendo uma pele mais saudável e revitalizada.
+                        <br>
+                        O procedimento é realizado por profissionais qualificados, utilizando produtos específicos para cada tipo de pele. A limpeza de pele é indicada para todos os tipos de pele e pode ser realizada periodicamente para manter a saúde e o aspecto rejuvenescido da pele.
+                        <br>
+                        <strong>Vantagens da limpeza de pele:</strong>
+                        <ul>
+                            <li>Remoção de impurezas e cravos</li>
+                            <li>Revitalização da pele</li>
+                            <li>Pele mais saudável</li>
+                        </ul>
+                        <strong>Entre em contato conosco e agende uma avaliação gratuita!</strong>
+                    </p>
+                </article>
+
+                </article>
+                        <article id="depilacao-cera" class="servico-anchor">
+                            <h3>Depilação a Cera</h3>
+                            <p>
+                                <strong>Pele lisinha e sem pelos</strong>
+                                <br>
+                                A depilação a cera é um procedimento estético que remove os pelos da pele. O procedimento é realizado com cera quente ou fria, que gruda nos pelos e os arranca da raiz.
+                                <br>
+                                A depilação a cera é uma ótima opção para quem deseja uma pele lisinha e sem pelos por mais tempo. O procedimento é realizado por profissionais qualificados e experientes, que utilizam materiais de alta qualidade. A depilação a cera dura cerca de 30 dias, mas pode variar de acordo com o tipo de pelo e os cuidados de manutenção.
+                                <br>
+                                <strong>Vantagens da depilação a cera:</strong>
+                                <ul>
+                                    <li>Pele lisinha por mais tempo</li>
+                                    <li>Remoção completa dos pelos</li>
+                                    <li>Efeito duradouro</li>
+                                </ul>
+                                <strong>Entre em contato conosco e agende uma avaliação gratuita!</strong>
+                            </p>
+                        </article>
                     
                         </main>
                     
