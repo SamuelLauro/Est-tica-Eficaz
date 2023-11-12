@@ -1,0 +1,126 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais do corpo da página */
+  body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background: linear-gradient(to right, #8F79D2 2%, #a08dd9 9%);
+    color: #FFFFFF;
+    text-align: center;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Estilos da logo */
+  .logo {
+    width: 200px;
+    height: 104px;
+    background-image: url(imagens/logo-atualizada.png);
+    background-size: cover;
+    border-radius: 12px;
+  }
+  
+  /* Estilos do menu de navegação */
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover{
+    color: #c9bee9;
+  }
+  
+  
+  /* Estilos do formulário de contato */
+  #contato {
+    background-color: #ffffff; /* Cor de fundo da seção de contato */
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 600px; /* Ajuste o tamanho conforme necessário */
+  }
+  
+  .contato-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8F79D2; /* Cor do texto do label */
+  }
+  
+  .contato-form input,
+  .contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  .contato-form button {
+    background-color: #a997dd;
+    color: #FFFAFA;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contato-form button:hover {
+    background-color: #c9bee9;
+  }
+  
+  /* Estilos da seção de avaliação */
+  .avaliacao {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .avaliacao p {
+    margin-bottom: 10px;
+  }
+  
+  .avaliacao .cta-button {
+    background-color: #a997dd;
+    color: #FFFAFA;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .avaliacao .cta-button:hover {
+    background-color: #c9bee9;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #a08dd9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+  }
+  
