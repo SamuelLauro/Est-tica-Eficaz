@@ -16,8 +16,10 @@ a08dd9
 
 body {
     font-family: 'Segoe UI', Roboto, sans-serif;
-    background-color: var(--cor-fundo);
+    background-color: #c9bee9;
     color: #ffffffab;
+    margin: 10px;
+    padding: 10px;
   }
 
 /* Estilos do cabeçalho */
@@ -30,6 +32,7 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
     
   }
   
@@ -42,37 +45,42 @@ header {
     border-radius: 12px;
   }
 
-/* Estilos do menu de navegação */
-.menu {
-    display: flex;
-    align-items: center;
+  #mentopo {
+    background-color: #8F79D2;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .menu a {
-    color: #FFF;
+  #mentopo a {
+    color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     text-decoration: none;
-    margin: 0 15px;
-    transition: color 0.3s ease;
+    margin: 0 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
   }
   
-  .menu a:hover{
-    color: #c9bee9;
-  }  
-
-
+  #mentopo a:hover {
+    background-color: #a08dd9;
+  }
   
+  
+
+
 .conteudo{
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .fundo {
-    background-color: rgba(255, 248, 248, 0.288);
+    background-color: rgba(255, 248, 248, 0.6);
     border-radius: 5px;
+    padding: 20px;
 }
 
 #pagina-inicial{
@@ -125,7 +133,7 @@ h2{
     margin: 10px 0;
     display: inline-block;
     border-radius: 6px;
-    transition: 0.3s ease;
+    transition: background-color 0.3s ease;
 
 }
 
@@ -160,4 +168,6 @@ footer p{
     color: #FFFFFF;
     text-align: center;
     height: 40px;
+    padding: 10px;
+    margin-top: 20px;
 }

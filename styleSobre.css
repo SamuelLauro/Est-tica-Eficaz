@@ -1,0 +1,126 @@
+/* Estilos do cabeçalho */
+header {
+  background: linear-gradient(to right, #8F79D2 2%, #a08dd9 9%);
+  color: #FFFFFF;
+  text-align: center;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+/* Estilos da logo */
+.logo {
+  width: 200px;
+  height: 104px;
+  background-image: url(imagens/logo-atualizada.png);
+  background-size: cover;
+  border-radius: 12px;
+}
+
+/* Estilos do menu topo */
+#mentopo {
+  background-color: #8F79D2;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mentopo a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#mentopo a:hover {
+  background-color: #a08dd9;
+}
+
+/* Estilos dos elementos iniciais */
+#ini {
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos títulos de depoimentos e serviços */
+.depoimentos h2,
+.sobrenos h2 {
+  color: #8F79D2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos do conteúdo dos depoimentos e serviços */
+.sobrenos p,
+.servicos p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilos dos itens de serviço */
+.servicos ul {
+  list-style-type: none;
+}
+
+.servicos li {
+  background-color: #dcd6f7;
+  border: 1px solid #c0b4e2;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Estilos das imagens nos serviços */
+.sobrenos img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Estilos específicos para os serviços */
+.servico-anchor {
+  flex: 0 0 calc(50% - 20px);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+/* Estilos das imagens nos serviços individuais */
+.servico-imagem {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.servico-imagem img {
+  width: 80%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.servico-imagem img:hover {
+  transform: scale(1.05);
+}
+
+.servico-anchor h3 {
+  color: #8F79D2;
+  margin-top: 0;
+}
+
+.servico-anchor p {
+  font-size: 16px;
+  line-height: 1.5;
+}
