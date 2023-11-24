@@ -42,6 +42,57 @@ header {
   background-color: #a08dd9;
 }
 
+
+/* Estilos das imagens nos serviços */
+#fundo img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos do conteúdo da seção "Sobre Nós" */
+#pagina-inicial {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pagina-inicial h2 {
+  color: #8F79D2;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#pagina-inicial p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#pagina-inicial ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+#pagina-inicial li {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#pagina-inicial li::before {
+  content: "\2022"; /* Código do bullet (ponto) */
+  color: #8F79D2;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
 /* Estilos dos elementos iniciais */
 #ini {
   background-color: #ffffff;
@@ -124,3 +175,22 @@ header {
   font-size: 16px;
   line-height: 1.5;
 }
+
+#EntreContato {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #8F79D2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none !important; /* Remover sublinhado */
+}
+
+#EntreContato:hover {
+  background-color: #c0b4e2;
+}
+
+
+
