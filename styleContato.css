@@ -1,126 +1,152 @@
-/* Reset de estilos padrão */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Estilos globais do corpo da página */
-  body {
-    font-family: 'Segoe UI', Roboto, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  /* Estilos do cabeçalho */
+/* Estilos do cabeçalho */
+header {
+  background: linear-gradient(to right, #8F79D2 2%, #a08dd9 9%);
+  color: #fff;
+  text-align: center;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.logo {
+  width: 160px;
+  height: 80px;
+  background-image: url(imagens/logo-atualizada.png);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+#mentopo {
+  background-color: #8F79D2;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mentopo a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#mentopo a:hover {
+  background-color: #a08dd9;
+}
+
+#contato {
+  padding: 50px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contato-info h2 {
+  margin-bottom: 20px;
+  color: #8F79D2;
+  font-size: 32px;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato-form label,
+.contato-form input,
+.contato-form textarea {
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.contato-form textarea {
+  height: 150px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #8F79D2;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #a08dd9;
+}
+
+
+@media only screen and (max-width: 768px) {
   header {
-    background: linear-gradient(to right, #8F79D2 2%, #a08dd9 9%);
-    color: #FFFFFF;
-    text-align: center;
-    height: 104px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    
+    height: auto;
+    flex-direction: column;
   }
-  
-  /* Estilos da logo */
+
   .logo {
-    width: 200px;
-    height: 104px;
-    background-image: url(imagens/logo-atualizada.png);
-    background-size: cover;
-    border-radius: 12px;
-  }
-  
-  /* Estilos do menu de navegação */
-  .menu {
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu a {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 15px;
-    transition: color 0.3s ease;
-  }
-  
-  .menu a:hover{
-    color: #c9bee9;
-  }
-  
-  
-  /* Estilos do formulário de contato */
-  #contato {
-    background-color: #ffffff; /* Cor de fundo da seção de contato */
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 8px;
-    max-width: 600px; /* Ajuste o tamanho conforme necessário */
-  }
-  
-  .contato-form label {
-    display: block;
-    margin-bottom: 8px;
-    color: #8F79D2; /* Cor do texto do label */
-  }
-  
-  .contato-form input,
-  .contato-form textarea {
     width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  #mentopo {
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #d3d3d3;
-    border-radius: 5px;
   }
-  
-  .contato-form button {
-    background-color: #a997dd;
-    color: #FFFAFA;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+
+  #mentopo a {
+    margin: 0 10px;
   }
-  
-  .contato-form button:hover {
-    background-color: #c9bee9;
-  }
-  
-  /* Estilos da seção de avaliação */
-  .avaliacao {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .avaliacao p {
-    margin-bottom: 10px;
-  }
-  
-  .avaliacao .cta-button {
-    background-color: #a997dd;
-    color: #FFFAFA;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .avaliacao .cta-button:hover {
-    background-color: #c9bee9;
-  }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #a08dd9;
-    color: #FFFFFF;
-    text-align: center;
+
+  #contato {
     padding: 15px;
   }
-  
+
+  .contato-info h2 {
+    font-size: 24px;
+  }
+
+  .contato-form label,
+  .contato-form input,
+  .contato-form textarea {
+    width: calc(100% - 20px);
+  }
+}
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #8F79D2;
+  color: #fff;
+}
+
+/* Para telas médias */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    width: 120px;
+    height: 60px;
+  }
+
+  #mentopo a {
+    margin: 0 15px;
+  }
+
+  #contato {
+    max-width: 600px;
+  }
+}
